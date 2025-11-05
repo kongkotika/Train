@@ -3,61 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>One Trip in Train – Czech Journey 🚆</title>
+  <title>One Trip in Train – Czech Journey</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">🚆 One Trip in Train</div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#facts">Facts</a></li>
-    </ul>
-  </nav>
 
-  <!-- Hero -->
-  <header id="home" class="hero">
-    <div class="overlay"></div>
+<body>
+  <header class="hero">
     <div class="hero-text">
-      <h1>Across the Czech Rails</h1>
-      <p>From Prague to Pilsen — a journey through nature & time.</p>
-      <button onclick="scrollToGallery()">Explore Gallery</button>
+      <h1>One Trip in Train</h1>
+      <p>A calm and scenic ride through Czech landscapes — forested hills, quiet rivers, and cozy stations.</p>
+      <a href="history.html" class="btn">Read Train History</a>
     </div>
   </header>
 
-  <!-- About -->
-  <section id="about" class="about">
+  <section class="about">
     <h2>About the Journey</h2>
     <p>
-      A calm and scenic ride that captures the beauty of Czech landscapes —
-      forested hills, quiet rivers, and cozy stations. It’s more than travel;
-      it’s slowing down to feel every moment.
+      This trip captures the beauty of slow travel through the heart of the Czech Republic —
+      a journey from Prague to Český Krumlov filled with misty forests, charming towns,
+      and rhythmic sounds of the rail.
     </p>
   </section>
 
-  <!-- Gallery -->
-  <section id="gallery" class="gallery">
+  <section class="gallery">
     <h2>Gallery</h2>
     <div class="images">
-      <img src="IMG_2798.JPG" alt="Train station in Prague" />
-      <img src="IMG_2807.JPG" alt="Countryside rail view" />
-      <img src="IMG_2861.JPG" alt="Train on bridge near river" />
+      <img src="IMG_2798.JPG" alt="Train crossing bridge" />
+      <img src="IMG_2807.JPG" alt="Train in forest" />
+      <img src="IMG_2861.JPG" alt="Sunset view from train" />
     </div>
   </section>
 
-  <!-- Facts -->
-  <section id="facts" class="facts">
-    <h2>Fun Facts 🚄</h2>
-    <ul id="facts-list"></ul>
-    <button id="add-fact">Add New Fact</button>
-  </section>
-
-  <!-- Footer -->
   <footer>
-    <p>Designed with ❤️ in Prague © 2025</p>
+    <p>Designed with ❤️ in Prague © 2025 |
+      <a href="history.html">Czech Train History</a>
+    </p>
   </footer>
 
   <script src="script.js"></script>
