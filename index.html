@@ -7,15 +7,18 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body class="light">
+  <!-- Header / Hero Section -->
   <header class="hero">
     <div class="hero-text">
       <h1>One Trip in Train</h1>
       <p>A calm and scenic ride through Czech landscapes — forested hills, quiet rivers, and cozy stations.</p>
       <a href="history.html" class="btn">Read Train History</a>
     </div>
+    <button id="themeToggle">🌙 Dark Mode</button>
   </header>
 
+  <!-- About Section -->
   <section class="about">
     <h2>About the Journey</h2>
     <p>
@@ -25,7 +28,8 @@
     </p>
   </section>
 
-  <section class="gallery">
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
     <h2>Gallery</h2>
     <div class="images">
       <img src="IMG_2798.JPG" alt="Train crossing bridge" />
@@ -34,20 +38,25 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section class="contact">
-  <h2>Contact</h2>
-  <p>Have a story about your own train journey? Reach out!</p>
-  <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-</section>
+    <h2>Contact</h2>
+    <p>Have a story about your own train journey? Reach out!</p>
+    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+  </section>
 
-
+  <!-- Footer -->
   <footer>
-    <p>Designed with ❤️ in Prague © 2025 |
+    <p>
+      Designed with ❤️ in Prague © 2025 |
       <a href="history.html">Czech Train History</a>
     </p>
   </footer>
 
+  <!-- Back to Top Button -->
+  <button id="scrollTopBtn">↑</button>
+
+  <!-- JavaScript -->
   <script src="script.js"></script>
-  <button id="scrollTopBtn">↑ Back to Top</button>
 </body>
 </html>
